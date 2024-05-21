@@ -1,0 +1,58 @@
+nav {
+
+  background-color:   white;
+  padding: 50px 0;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  margin: 0 10px;
+  font-size: 25px; /* Increased font size */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: cyan; /* Change color on hover */
+}
+.LOGO{
+  height: 150px;
+  width: 150px;
+  margin-right: 200px ;
+
+}
+.Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background{
+ align-items: center;
+ margin-left: 3px ;
+ height: 100%;
+ width: 100%;
+
+}
+.heading{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1; /* Ensure the overlay appears above the image */
+  transition: all 2ms;
+  font-size: 5em;
+  color: blue;
+}
