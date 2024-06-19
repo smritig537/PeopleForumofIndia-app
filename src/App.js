@@ -1,16 +1,18 @@
-import './App.css';
-import Main from './Main';
-import Navbar from './Navbar';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './index.css';
+import Home from './Pages/Home.jsx'
 
-function App() {
+const App = () => {
   return (
-     <>
-     <Navbar/>
-     <Main/>
-     </>
-   
-    
+    <Router>
+      <div className="landing-page-2">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
