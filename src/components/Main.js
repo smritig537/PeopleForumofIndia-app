@@ -8,8 +8,7 @@ const Main = () => {
     <h1 className='heading'>People Forum of India is
     here to help you.</h1>
     <img src={Hand} alt='Handshake' className='background'/>
-    </div>
-      
+    </div>     
     </>
   )
 }

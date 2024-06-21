@@ -8,10 +8,10 @@ const Navbar = () => {
         <Link to="/" className="text-2xl font-bold text-indigo-600">People Forum Of India</Link>
         <div>
          <img src=''/>
-          <Link to="/" className="mx-2 text-gray-700">Home</Link>
-          <Link to="/about" className="mx-2 text-gray-700">About</Link>
-          <Link to="/Events" className="mx-2 text-gray-700">Events</Link>
-          <Link to="/contact" className="mx-2 text-gray-700">Contact</Link>
+          <Link to="/" className="mx-2 text-gray-200">Home</Link>
+          <Link to="/about" className="mx-2 text-gray-200">About</Link>
+          <Link to="/Events" className="mx-2 text-gray-200">Events</Link>
+          <Link to="/contact" className="mx-2 text-gray-200">Contact Us</Link>
         </div>
       </div>
     </nav>

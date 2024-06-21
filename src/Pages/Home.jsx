@@ -8,6 +8,7 @@ import right from '../images/right.png';
 import img1 from '../images/img1.png';
 import Homesection2 from '../components/Homesection2';
 import './Home.css';
+import Navbar from './Navbar';
 
 function Home() {
   const prevRef = useRef(null);
@@ -94,6 +95,7 @@ function Home() {
 
   return (
     <>
+ 
       <div className="container w-[100%]">
         <div className="list">
           <div className="item">
