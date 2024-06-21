@@ -5,7 +5,7 @@ const Contact = () => {
     <>
     <section className="py-20">
     <div className="container px-4 mx-auto text-center">
-      <h2 className="text-3xl font-bold text-gray-800">Contact Us</h2>
+      <h2 className="text-3xl font-bold text-gray-100">Contact Us</h2>
       <p className="max-w-2xl mx-auto mt-4 text-gray-600">Have questions or want to get involved? Reach out to us!</p>
       <form className="max-w-xl mx-auto mt-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">

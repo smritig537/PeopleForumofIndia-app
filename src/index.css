@@ -1,5 +1,9 @@
 *{
   font-family: "Poppins", sans-serif;
+ 
+}
+html{
+  background-color: white
 }
 @tailwind base;
 @tailwind components;
