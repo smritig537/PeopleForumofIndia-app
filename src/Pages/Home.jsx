@@ -12,6 +12,8 @@ import right from "../images/right.png";
 import img1 from "../images/img1.png";
 import logo from "../images/logo.png";
 import Homesection2 from '../components/Homesection2.jsx';
+import arrow from "../images/arrow.png";
+import Hero from "../components/Hero.js";
 // import img1 from "../images/fifth.png";
 function Home() {
   const prevRef = useRef(null);
@@ -355,6 +357,7 @@ function show(t){
                       </body>
 
       <Homesection2 />
+  
    </>
   );
 };

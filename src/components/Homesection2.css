@@ -1,0 +1,4 @@
+.cont1:hover + .cont2 {
+    opacity: 1;
+    visibility: visible;
+}
