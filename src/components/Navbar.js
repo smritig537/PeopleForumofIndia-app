@@ -24,7 +24,12 @@ function Navbar() {
         <div className=''>
         <Link to="/" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>Home</Link>
         <Link to="/about" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>About</Link>
+      
+        <Link to="/Sports" className='mr-8 text-2xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Sports Medicine</Link>
+        <Link to="/Ayurveda" className='mr-8 text-2xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Sports & Ayurveda</Link>
+        <Link to="/Global" className='mr-8 text-2xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Global Wellness City</Link>
         <Link to="/contactus" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>Contact Us</Link>
+
         </div>
     </div>
 </header>
@@ -54,7 +59,7 @@ export default Navbar;
 //           <span className="navbar-toggler-icon"></span>
 //         </button>
 //         <div className="collapse navbar-collapse" id="navbarNav">
-//           <ul className="navbar-nav ml-auto">
+//           <ul className="ml-auto navbar-nav">
 //             <li className="nav-item">
 //               <Link className="nav-link" to="/about">About</Link>
 //             </li>

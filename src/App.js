@@ -8,17 +8,24 @@ import Homesection2 from './components/Homesection2.jsx';
 import Contact from './Pages/Contact.jsx'
 import Footer from './components/Footer.jsx';
 import Contactus from './Pages/Contactus.jsx';
+import Sports from './Pages/Sports.js';
+import Ayurveda from './Pages/Ayurveda.js';
+import Global from './Pages/Global.js';
 const App = () => {
   return (
     <Router>
       {/* <div className=""> */}
-      <Navbar />
+        <Navbar/>
           {/* <Homesection2 /> */}
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/about" element={<About />} />
           <Route path="/contactus" element={<Contactus />} />
         
+          <Route path="/sports" element={<Sports/>}/>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/ayurveda" element={<Ayurveda/>}/>
+          <Route path="/Global" element={<Global/>}/>
         </Routes>
           <Footer />
        {/* </div> */}
