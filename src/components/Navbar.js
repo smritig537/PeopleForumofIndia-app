@@ -17,16 +17,18 @@ function Navbar() {
     //   </ul>
     //   </div>
     // </nav>
-    <header className='w-[80%] overflow-y-hidden  h-[100px] m-auto'>
+    <div>
+    <header className='w-[80%] overflow-y-hidden  h-[100px] m-auto '>
     <div class="nav flex justify-between w-[100%] items-center ">
         <img src={img} className='h-[200px] w-[200px] mt-8' alt="Pokemon Logo" />
         <div className=''>
-        <Link to="/" className='text-2xl text-black font-semibold mr-8'>Home</Link>
-        <Link to="/about" className='text-2xl text-black font-semibold mr-8'>About</Link>
-        <Link to="/contactus" className='text-2xl text-black font-semibold mr-8'>Contact Us</Link>
+        <Link to="/" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>Home</Link>
+        <Link to="/about" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>About</Link>
+        <Link to="/contactus" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>Contact Us</Link>
         </div>
     </div>
 </header>
+    </div>
   );
 }
 
