@@ -162,31 +162,31 @@ reciting ‘Sri Rudram’</div>
           <div className="item">
             <img src={img3} alt="Charlizad" />
             <div className="content-1">
-              <div className="title">Charlizad</div>
+              <div className="title"></div>
             </div>
           </div>
           <div className="item">
             <img src={img4} alt="Charmander" />
             <div className="content-1">
-              <div className="title">Charmander</div>
+              <div className="title"></div>
             </div>
           </div>
           <div className="item">
             <img src={img5} alt="Eevee in pokeball" />
             <div className="content-1">
-              <div className="title">Eevee in pokeball</div>
+              <div className="title"></div>
             </div>
           </div>
           <div className="item">
             <img src={img1} alt="Eevee" />
             <div className="content-1">
-              <div className="title">Eevee</div>
+              <div className="title"></div>
             </div>
           </div>
           <div className="item">
             <img src={img2} alt="Pikachu" />
             <div className="content-1">
-              <div className="title">Pikachu</div>
+              <div className="title"></div>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@ reciting ‘Sri Rudram’</div>
         <div className="time"></div>
       </div>
       <Homesection2 />
-      <Homesection3 />
+      
    </>
   );
 }

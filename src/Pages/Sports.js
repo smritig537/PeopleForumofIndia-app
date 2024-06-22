@@ -82,7 +82,6 @@ const Sports = () => {
        <div className="flex justify-center mb-8 ">
        <img className="h-auto max-w-full rounded-lg shadow-lg" src={Sports2} alt=""/>
        </div>
-      
        </div>       
   </div>
   
