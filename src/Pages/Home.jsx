@@ -2,14 +2,15 @@ import React from 'react'
 import { useEffect ,useRef} from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
+import "./Homeresp.css";
 // import "./Home.js";
-import img5 from "../images/temple.jpg";
-import img4 from "../images/third.png";
-import img3 from "../images/second.jpg";
-import img2 from "../images/firstpick.jpg";
+import img5 from "../images/Agriculture.png";
+import img4 from "../images/pie.png";
+import img3 from "../images/hut..png";
+import img2 from "../images/cow.jpg";
 import left from "../images/left.png";
 import right from "../images/right.png";
-import img1 from "../images/photo.png";
+import img1 from "../images/Grass.jpg";
 import logo from "../images/logo.png";
 import Homesection2 from '../components/Homesection2.jsx';
 import arrow from "../images/arrow.png";
@@ -103,10 +104,10 @@ function Home() {
       <div className="container w-[100%]">
         <div className="list">
           <div className="item">
-            <img src={img2} alt="Balbasaur" className="w-[100vw]" />
+            <img src={img2} alt="cow" className="w-[100vw]" />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
-              <div className="title">Global City</div>
+              <div className="title">Organic Agriculture</div>
               <div className="type">Mystical Zones</div>
               <button>See more</button>
               <div className="des">The Global City is set in the spiritual landscape which we have identified as mystical zones.</div>

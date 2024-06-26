@@ -1,0 +1,34 @@
+/* HomeResponsive.css */
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .list {
+      flex-direction: column;
+    }
+  
+    .item {
+      min-width: 100%;
+    }
+  
+    .content {
+      padding: 8px;
+    }
+  
+    .thumbnail {
+      flex-direction: column;
+    }
+  
+    .thumbnail .item {
+      min-width: 100%;
+    }
+  
+    .arrows {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .arrows button {
+      margin: 8px 0;
+    }
+  }
+  
