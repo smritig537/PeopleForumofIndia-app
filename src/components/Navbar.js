@@ -22,12 +22,21 @@ function Navbar() {
     <div class="nav flex justify-between w-[100%] items-center ">
         <img src={img} className='h-[200px] w-[200px] mt-8' alt="Pokemon Logo" />
         <div className=''>
+<<<<<<< HEAD
         <Link to="/" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>Home</Link>
         <Link to="/about" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>About</Link>
         <Link to="/Sports" className='mr-8 text-2xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Sports Medicine</Link>
         <Link to="/Ayurveda" className='mr-8 text-2xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Sports & Ayurveda</Link>
         <Link to="/Global" className='mr-8 text-2xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Global Wellness City</Link>
         <Link to="/contactus" className='text-2xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>Contact Us</Link>
+=======
+        <Link to="/" className='text-xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2 text-white'>Home</Link>
+        <Link to="/about" className='text-xl text-black font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2 text-white'>About</Link>     
+        <Link to="/Agriculture" className='mr-8 text-xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Agriculture</Link>
+        <Link to="/Ayurveda" className='mr-8 text-xl font-semibold text-white hover:bg-[#d6924d] rounded-xl p-2'>Sports & Ayurveda</Link>
+        <Link to="/contactus" className='text-xl text-white font-semibold mr-8 hover:bg-[#d6924d] rounded-xl p-2'>Contact Us</Link>
+
+>>>>>>> 7e1227e79606c011c0909b51ddf328c51556eb02
         </div>
     </div>
 </header>

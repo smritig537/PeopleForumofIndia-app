@@ -1,14 +1,16 @@
 import React from 'react'
+import Footer from './Footer'
 
 function Contactus() {
   return (
+    <>
     <body className='bg-[white] w-[100vw] h-[100vh]'>
                <h1 className='text-[#d6924d] m-auto font-bold text-[50px] text-center mt-8'>Contact Us</h1>
-    <div className="flex flex-col bg-white items-center justify-between h-auto mt-10 mb-8 lg:flex-row">
+    <div className="flex flex-col items-center justify-between h-auto mt-10 mb-8 bg-white lg:flex-row">
     <div className="h-[600px] w-auto mx-4 bg-[#d6924d] lg:w-[600px] lg:mx-0">
       <h1 className="pt-20 text-3xl font-bold text-center text-white">Get in Touch</h1>
       <h1 className="m-auto mt-8 text-center font-semibold drop-shadow-lg w-[50%] text-white">601, Kailash Building, K.G. Marg <br />New Delhi-110001</h1>
-      <h1 className="m-auto mt-8 text-center text-white underline cursor-pointer">sanatanadharmafoundation1@gmail.com</h1>
+      <h1 className="m-auto mt-8 text-center text-white underline cursor-pointer">info@peopleforumofindia.in</h1>
     </div>
     <form className="flex w-[50%] h-auto flex-col justify-center items-start">       
     <div className="w-[90%] w-[70%] h-[50px] lg:mr-[20px] mt-[40px] lg:w-[35%]">
@@ -33,6 +35,8 @@ function Contactus() {
     </form>
   </div>
     </body>
+    
+    </>
   )
 }
 
