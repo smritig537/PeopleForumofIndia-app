@@ -24,7 +24,7 @@ function Navbar() {
     //   </div>
     // </nav>
 
-    <div>
+    <div className='overflow-x-hidden'>
     <header className={`w-[100%] overflow-y-hidden  ${isHomePage ? '' : 'bg-[#049372]'}  overflow-x-hidden  h-[100px] m-auto`}>
      
     <div class={`flex justify-between w-[100%] h-[100px] items-center`}>

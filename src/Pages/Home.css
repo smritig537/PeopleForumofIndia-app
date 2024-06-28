@@ -134,6 +134,7 @@ header div img {
     z-index: 100;
     display: flex;
     gap: 20px;
+    overflow-x:hidden;
 }
 
 .thumbnail .item {
