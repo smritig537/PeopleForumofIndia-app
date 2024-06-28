@@ -7,7 +7,7 @@ const Ayurveda = () => {
   return (
     <>
       <div className='bg-white '>  
-      <h1 className="text-7xl font-bold text-center text-[#0c9815] mb-10 py-20">SPORTS & ARYURVEDA</h1> 
+      <h1 className="text-7xl font-bold text-center text-[#006442] mb-10 py-20">SPORTS & ARYURVEDA</h1> 
       <div className="flex justify-center mb-8 ">
       <img className="h-auto max-w-full rounded-lg shadow-lg" src={Ayurveda1} alt=""/>
       </div>
@@ -22,7 +22,7 @@ const Ayurveda = () => {
       <br/>
       In sport medicine mamsa (Muscles), Asthi (bones) are main dhatu ans snayu (ligaments), kandra (tendons) are upadhatu which deals with sports injury. Ayurveda, the functions of asthi (Bones) is to give shape & structure to our body Ligaments, muscles and tendons are connected to asthi. Having strong bones means having a strong body.</p>
 
-      <h1 className="text-7xl font-bold text-center text-[#0c9815] mb-10 py-20">
+      <h1 className="text-7xl font-bold text-center text-[#006442] mb-10 py-20">
       Aims of Ayurvedic
       Sports Medicine</h1>
       <div className="flex justify-center mb-8 "><img className="h-auto max-w-full rounded-lg shadow-lg" src={aims} alt=""/></div>
