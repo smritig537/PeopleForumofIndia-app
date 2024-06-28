@@ -216,7 +216,7 @@ Wellness tourism focuses on promoting health and well-being through activities s
           
         </div> */}
      
-       { screenWidth>1280 ?( <div className="thumbnail overflow-x-hidden">
+       { screenWidth>100 ?( <div className="thumbnail overflow-x-hidden">
           <div className="item overflow-x-hidden">
             <img src={yoga} alt="Charlizad" className='overflow-x-hidden' />
             <div className="content-1">
