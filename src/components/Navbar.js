@@ -4,11 +4,26 @@ import img from '../images/logo.png';
 import { Link } from 'react-router-dom';
 import Ham from "../images/ham.png"
 import "./Navbar.css"
+import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 function Navbar() {
         const location = useLocation();
         const isHomePage = location.pathname === "/";
         console.log(isHomePage);
+        const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+        const toggleMenu = () => {
+            setIsMenuOpen(!isMenuOpen);
+    
+            // Toggle body class to prevent scrolling
+            if (!isMenuOpen) {
+                document.body.classList.add('body-overflow-hidden');
+                console.log("hidden");
+            } else {
+                document.body.classList.remove('body-overflow-hidden');
+                console.log("removed hidden");
+            }
+        };
   return (
     // <nav className='h-[100px]'>
     // <div className='Container'>
@@ -31,7 +46,7 @@ function Navbar() {
     
         <img src={img} className='h-[200px] w-[200px] mt-8' alt="Pokemon Logo" />
         <input type="checkbox" id="checkbox" />
-  <label htmlFor="checkbox" className='checkbtn'>   
+  <label htmlFor="checkbox" className='checkbtn' onClick={toggleMenu} >   
 <img src={Ham} className='h-[100px] w-[100px]' />
   </label>  
         <ul className={`nav-list  `}>
