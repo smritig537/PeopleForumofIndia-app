@@ -17,7 +17,7 @@ function Footer() {
                  </div>
                  <div className='flex flex-col mb-8'>
                        <h1 className='font-bold text-center text-[#006442]'>Address:</h1>
-                       <p className='w-[80%] text-center'>4690/2, Shora Kothi, Near Main Market, Pahar Ganj, New Delhi-110055</p>
+                       <p className='w-[90%] text-center'>4690/2, Shora Kothi, Near Main Market, Pahar Ganj, New Delhi-110055</p>
                  </div>
                  <div className='flex flex-col text-center mb-8'>
                       <h1 className='font-bold text-[#006442]'>Get In Touch</h1>
