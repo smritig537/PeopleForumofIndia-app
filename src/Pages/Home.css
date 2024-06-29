@@ -3,14 +3,11 @@ body {
     background-color: black;
     color: white;
     font-size: 12px;
-    /* overflow-y: visible; */
-    overflow-x:hidden
 }
 
 * {
     overscroll-behavior: none;
     margin: 0;
-    /* overflow: hidden; */
 }
 
 /* Nav bar on the site */
@@ -19,9 +16,6 @@ header {
     /* justify-content: center; */
     position: relative;
     z-index: 100;
-    /* width: 100%; */
-    width: 50vw;
-    
 }
 
 nav {
@@ -35,13 +29,11 @@ header div img {
 
 /* Main-content */
 .container {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
     margin-top: -113px;
-    /* overflow-y:auto */
-    /* height:auto; */
-    /* position: relative; */
+    position: relative;
 }
 
 .container .list .item {
@@ -134,7 +126,6 @@ header div img {
     z-index: 100;
     display: flex;
     gap: 20px;
-    overflow-x:hidden;
 }
 
 .thumbnail .item {
@@ -827,5 +818,3 @@ header div img {
         }
     }
 }
-
-

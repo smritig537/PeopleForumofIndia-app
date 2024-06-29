@@ -5,7 +5,7 @@ import "./Home.css";
 import "./Homeresp.css";
 // import "./Home.js";
 import img5 from "../images/Agriculture.png";
-import img4 from "../images/floor.jpg";
+import img4 from "../images/business.jpg";
 import img3 from "../images/hut..png";
 import img2 from "../images/cow.jpg";
 import left from "../images/left.png";
@@ -119,11 +119,11 @@ function Home() {
   // console.log(screenwidth);
   return (
     <>
- 
-      <div className="container w-[100%] overflow-x-hidden">
-        <div className="list overflow-x-hidden">
-          <div className="item overflow-x-hidden">
-            <img src={img2} alt="cow" className="overflow-x-hidden w-[100vw]" />
+ <body>
+      <div className="container ">
+        <div className="list">
+          <div className="item ">
+            <img src={img2} alt="cow"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Organic Agriculture</div>
@@ -133,7 +133,7 @@ function Home() {
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={medicine} alt="Charlizad" className='overflow-x-hidden' />
+            <img src={medicine} alt="Charlizad"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Ayurveda</div>
@@ -143,7 +143,7 @@ function Home() {
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={img4} alt="Charmander" className='overflow-x-hidden' />
+            <img src={img4} alt="Charmander"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Business Model</div>
@@ -153,7 +153,7 @@ function Home() {
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={yoga} alt="Eevee" className='overflow-x-hidden' />
+            <img src={yoga} alt="Eevee"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Carnoustie Wellness</div>
@@ -164,7 +164,7 @@ Wellness tourism focuses on promoting health and well-being through activities s
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={img1} alt="Eevee" className='overflow-x-hidden' />
+            <img src={img1} alt="Eevee"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Sports Medicine</div>
@@ -216,38 +216,38 @@ Wellness tourism focuses on promoting health and well-being through activities s
           
         </div> */}
      
-       { screenWidth>100 ?( <div className="thumbnail overflow-x-hidden">
-          <div className="item overflow-x-hidden">
-            <img src={yoga} alt="Charlizad" className='overflow-x-hidden' />
+       <div className="thumbnail ">
+          <div className="item ">
+            <img src={yoga} alt="Charlizad"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={img4} alt="Charmander" className='overflow-x-hidden' />
+            <img src={img4} alt="Charmander"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={medicine} alt="Eevee in pokeball" className='overflow-x-hidden' />
+            <img src={medicine} alt="Eevee in pokeball"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={img1} alt="Eevee" className='overflow-x-hidden' />
+            <img src={img1} alt="Eevee"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
           <div className="item overflow-x-hidden">
-            <img src={img2} alt="Pikachu" className='overflow-x-hidden' />
+            <img src={img2} alt="Pikachu" />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
-        </div>):""}
+        </div>
         <div className="arrows">
           <button id="prev" className="flex items-center justify-center" ref={prevRef}>
             <img className="h-[20px] w-[20px]" src={left} />
@@ -258,6 +258,7 @@ Wellness tourism focuses on promoting health and well-being through activities s
         </div>
         <div className="time"></div>
       </div>
+      </body>
       <Homesection2 />
       
    </>
