@@ -35,11 +35,11 @@ function Navbar() {
 <img src={Ham} className='h-[100px] w-[100px]' />
   </label>  
         <ul className={`nav-list  `}>
-        <Link to="/" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''}  text-black font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2 text-white`}>Home</Link>
-        <Link to="/about" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''} text-black font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2 text-white`}>About</Link>     
+        <Link to="/" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''}   font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2 `}>Home</Link>
+        <Link to="/about" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''}  font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2 `}>About</Link>     
         {/* <Link to="/Agriculture" className='mr-8 nav-list-item text-xl font-semibold text-white hover:bg-[#36D7B7] rounded-xl p-2'>Agriculture</Link> */}
-        <Link to="/Ayurveda" className={`mr-8 nav-list-item ${isHomePage ? 'text-[#049372]' : ''} text-xl font-semibold text-white hover:bg-[#36D7B7] rounded-xl p-2`}>Sports & Ayurveda</Link>
-        <Link to="/contactus" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''} text-white font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2`}>Contact Us</Link>
+        <Link to="/Ayurveda" className={`mr-8 nav-list-item ${isHomePage ? 'text-[#049372]' : ''} text-xl font-semibold hover:bg-[#36D7B7] rounded-xl p-2`}>Sports & Ayurveda</Link>
+        <Link to="/contactus" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''}  font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2`}>Contact Us</Link>
         </ul>
     </div>
 </header>

@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect,useState ,useRef} from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
-import "./Homeresp.css";
+// import "./Homeresp.css";
 // import "./Home.js";
 import img5 from "../images/Agriculture.png";
 import img4 from "../images/business.jpg";
@@ -119,11 +119,11 @@ function Home() {
   // console.log(screenwidth);
   return (
     <>
- <body>
-      <div className="container ">
-        <div className="list">
-          <div className="item ">
-            <img src={img2} alt="cow"  />
+ <body >
+      <div className="container  ">
+        <div className="list  ">
+          <div className="item">
+            <img src={img2} alt="cow" className='' />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Organic Agriculture</div>
@@ -132,7 +132,7 @@ function Home() {
               <div className="des">In integrated farming, the complete inputs for the farm will come from within. This mixed farming technique will keep the field under continuous production. It enhances the productivity of the farm and increases the per capita profitability.</div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item ">
             <img src={medicine} alt="Charlizad"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
@@ -142,7 +142,7 @@ function Home() {
               <div className="des">Ayurveda, being a complete science of healthcare is based on the principles of "swasthasya saasthya samrakshanam" and aaturasya vikaraprashamanam". Hence aiming at the promotive, preventive, curative and rehabilitative aspects of sports persons, principles of Ayurveda can be effectively incorporated.</div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item ">
             <img src={img4} alt="Charmander"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
@@ -152,7 +152,7 @@ function Home() {
               <div className="des">The business model of the People Forum of India revolves around establishing a collaborative platform for stakeholders across various sectors including businesses, government bodies, academia, and civil society. It serves as a nexus for dialogue and cooperation, aiming to address key socio-economic challenges in India through advocacy, networking, and knowledge exchange. </div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item">
             <img src={yoga} alt="Eevee"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
@@ -163,7 +163,7 @@ function Home() {
 Wellness tourism focuses on promoting health and well-being through activities such as spa treatments, yoga retreats, and mindfulness practices. It emphasizes holistic approaches to relaxation, rejuvenation, and personal growth, often set in tranquil and natural environments to foster mental and physical renewal.</div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item">
             <img src={img1} alt="Eevee"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
@@ -174,7 +174,7 @@ Wellness tourism focuses on promoting health and well-being through activities s
             </div>
           </div>
         </div>
-        {/* <div class="thumbnail">
+         <div class="thumbnail">
            
             <div class="item">
                 <img src={img4} alt="" />
@@ -214,7 +214,7 @@ Wellness tourism focuses on promoting health and well-being through activities s
       
            
           
-        </div> */}
+        </div> 
      
        <div className="thumbnail ">
           <div className="item ">
@@ -223,25 +223,25 @@ Wellness tourism focuses on promoting health and well-being through activities s
               <div className="title"></div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item ">
             <img src={img4} alt="Charmander"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item ">
             <img src={medicine} alt="Eevee in pokeball"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item ">
             <img src={img1} alt="Eevee"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
-          <div className="item overflow-x-hidden">
+          <div className="item">
             <img src={img2} alt="Pikachu" />
             <div className="content-1">
               <div className="title"></div>
@@ -259,6 +259,10 @@ Wellness tourism focuses on promoting health and well-being through activities s
         <div className="time"></div>
       </div>
       </body>
+    
+
+
+
       <Homesection2 />
       
    </>
