@@ -18,6 +18,7 @@ import Homesection2 from '../components/Homesection2.jsx';
 import arrow from "../images/arrow.png";
 import Hero from "../components/Hero.js";
 import Homesection3 from '../components/Homesection3.jsx';
+import Navbar from '../components/Navbar.js';
 // import img1 from "../images/fifth.png";
 function Home() {
   const prevRef = useRef(null);
@@ -120,7 +121,9 @@ function Home() {
   return (
     <>
  <body >
+
       <div className="container  ">
+      <Navbar />
         <div className="list  ">
           <div className="item">
             <img src={img2} alt="cow" className='' />

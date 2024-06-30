@@ -66,7 +66,7 @@ function Homesection2() {
                   <h1 className='font-[300] ml-8 text-[100px]'>03.</h1>
             </div>  */}
              {/* <div  className='bg-[white] w-[100%] px-4 cont2 flex flex-col items-center justify-center absolute h-full opacity-0 text-white max-h-[350px]'> */}
-             <img src={social} className='w-[150px] h-[150px] xl:w-[200px] mt-4 h-[200px]' />
+             <img src={social} className='w-[150px] h-[150px] xl:w-[200px]  h-[200px]' />
                         <h2 className='text-[32px] 2xl:text-[34px] text-[white] text-center font-bold m-auto w-[100%]'>Social Equity</h2>
                         <p className='w-[95%] text-[14px] 2xl:text-[16px] text-[white] text-center mt-2 xl:mt-2 mb-4'>the People Forum of India seeks to create a more equitable and inclusive society where every individual has the opportunity to thrive and contribute meaningfully, irrespective of their background or circumstances.</p> 
          
@@ -77,7 +77,7 @@ function Homesection2() {
                   <h1 className='font-[300] text-[black] ml-8 text-[100px]'>02.</h1>
             </div>  */}
              {/* <div  className='bg-[white]  w-[100%] px-4 cont2 flex flex-col items-center justify-center  h-full opacity-0 text-white max-h-[350px]'> */}
-                        <img src={social1} className='w-[140px] h-[140px] xl:w-[200px]  mt-4 h-[200px]' />
+                        <img src={social1} className='w-[140px] h-[140px] xl:w-[200px]  mt-[16px] h-[200px]' />
                         <h2 className='text-[32px] 2xl:text-[35px] text-[#0047AB] font-bold m-auto text-center'>Economic Equity</h2>
                         <p className='w-[90%] text-[14px] 2xl:text-[16px] text-[#0047AB] text-center mt-4 mb-4'>Economic equity, a core goal of the People's Forum, aims to create a fair distribution of wealth and opportunities, prioritizing the needs of marginalized communities.
 

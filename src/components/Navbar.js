@@ -200,7 +200,7 @@ function Navbar() {
           //         document.body.classList.remove('body-overflow-hidden');
           // }
   return (
-        <div className='overflow-x-hidden'>
+        <div className='overflow-x-hidden z-[400] sticky'>
         <header className={`w-[100%] overflow-y-hidden  ${isHomePage ? '' : 'bg-[#049372]'}  overflow-x-hidden  h-[100px] m-auto`}>
          
         <div class={`flex justify-between w-[100%] h-[100px] items-center`}>
