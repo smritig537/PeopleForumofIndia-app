@@ -1,21 +1,24 @@
 import React from 'react'
-import { useEffect ,useRef} from 'react';
+import { useEffect,useState ,useRef} from 'react';
 import { Link } from 'react-router-dom';
 import "./Home.css";
-import "./Homeresp.css";
+// import "./Homeresp.css";
 // import "./Home.js";
 import img5 from "../images/Agriculture.png";
-import img4 from "../images/pie.png";
+import img4 from "../images/business.jpg";
 import img3 from "../images/hut..png";
 import img2 from "../images/cow.jpg";
 import left from "../images/left.png";
+import yoga from "../images/yoga.jpg"
 import right from "../images/right.png";
-import img1 from "../images/Grass.jpg";
+import medicine from "../images/medicine.jpg"
+import img1 from "../images/sports.jpg";
 import logo from "../images/logo.png";
 import Homesection2 from '../components/Homesection2.jsx';
 import arrow from "../images/arrow.png";
 import Hero from "../components/Hero.js";
 import Homesection3 from '../components/Homesection3.jsx';
+import Navbar from '../components/Navbar.js';
 // import img1 from "../images/fifth.png";
 function Home() {
   const prevRef = useRef(null);
@@ -97,89 +100,146 @@ function Home() {
       }, timeauto);
     }
   }, []);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
 
+  useEffect(() => {
+      // Function to update screenWidth state on window resize
+      const handleResize = () => {
+          setScreenWidth(window.innerWidth);
+      };
+
+      // Add event listener to update screenWidth on window resize
+      window.addEventListener('resize', handleResize);
+
+      // Clean up the event listener
+      return () => {
+          window.removeEventListener('resize', handleResize);
+      };
+  }, []);
+  // let screenwidth = window.innerWidth;
+  // console.log(screenwidth);
   return (
     <>
- 
-      <div className="container w-[100%]">
-        <div className="list">
+ <body >
+
+      <div className="container ">
+      <Navbar />
+        <div className="list ">
           <div className="item">
-            <img src={img2} alt="cow" className="w-[100vw]" />
+            <img src={img2} alt="cow" className='' />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Organic Agriculture</div>
-              <div className="type">Mystical Zones</div>
+              <div className="type">Organic Flora</div>
               <button>See more</button>
-              <div className="des">The Global City is set in the spiritual landscape which we have identified as mystical zones.</div>
+              <div className="des">In integrated farming, the complete inputs for the farm will come from within. This mixed farming technique will keep the field under continuous production. It enhances the productivity of the farm and increases the per capita profitability.</div>
+            </div>
+          </div>
+          <div className="item ">
+            <img src={medicine} alt="Charlizad"  />
+            <div className="content">
+              <div className="topic">PEOPLE FORUM</div>
+              <div className="title">Ayurveda</div>
+              <div className="type">A complete science for Healthcare</div>
+              <button>See more</button>
+              <div className="des">Ayurveda, being a complete science of healthcare is based on the principles of "swasthasya saasthya samrakshanam" and aaturasya vikaraprashamanam". Hence aiming at the promotive, preventive, curative and rehabilitative aspects of sports persons, principles of Ayurveda can be effectively incorporated.</div>
+            </div>
+          </div>
+          <div className="item ">
+            <img src={img4} alt="Charmander"  />
+            <div className="content">
+              <div className="topic">PEOPLE FORUM</div>
+              <div className="title">Business Model</div>
+              <div className="type">Collaboration for a Sustainable Future</div>
+              <button>See more</button>
+              <div className="des">The business model of the People Forum of India revolves around establishing a collaborative platform for stakeholders across various sectors including businesses, government bodies, academia, and civil society. It serves as a nexus for dialogue and cooperation, aiming to address key socio-economic challenges in India through advocacy, networking, and knowledge exchange. </div>
             </div>
           </div>
           <div className="item">
-            <img src={img5} alt="Charlizad" />
+            <img src={yoga} alt="Eevee"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
-              <div className="title">RAMESHWARAM</div>
-              <div className="type">An Auspicious Temple</div>
-              <button>See more</button>
-              <div className="des">Rameshwaram, an island off the southeastern coast of India, is renowned for its historic temples, most notably the Ramanathaswamy Temple, revered by Hindus as one of the twelve Jyotirlinga shrines. It holds cultural significance as a pilgrimage site and is famed for its stunning beaches and traditional architecture.</div>
-            </div>
-          </div>
-          <div className="item">
-            <img src={img4} alt="Charmander" />
-            <div className="content">
-              <div className="topic">PEOPLE FORUM</div>
-              <div className="title">Religion and Spirituality</div>
-              <div className="type">A Preferred Global Destination for Tourists</div>
-              <button>See more</button>
-              <div className="des">Religion and Spirituality are both rooted in the same foundation to understand the meaning of life.The idea of religion and Spirituality is like a rectangule versus a square</div>
-            </div>
-          </div>
-          <div className="item">
-            <img src={img3} alt="Eevee" />
-            <div className="content">
-              <div className="topic">PEOPLE FORUM</div>
-              <div className="title">WELNESS TOURISM</div>
+              <div className="title">Carnoustie Wellness</div>
               <div className="type">Emphasizes Holistic Approaches</div>
               <button>See more</button>
               <div className="des">
-ChatGPT
 Wellness tourism focuses on promoting health and well-being through activities such as spa treatments, yoga retreats, and mindfulness practices. It emphasizes holistic approaches to relaxation, rejuvenation, and personal growth, often set in tranquil and natural environments to foster mental and physical renewal.</div>
             </div>
           </div>
           <div className="item">
-            <img src={img1} alt="Eevee" />
+            <img src={img1} alt="Eevee"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
-              <div className="title"></div>
+              <div className="title">Adi Shankaracharya</div>
               <div className="type">A Great Spiritual Catalyst</div>
               <button>See more</button>
-              <div className="des">It is believed that Lord Shiva of the Ramanathaswamy temple was consecrated by Lord
-Rama. Adi Shankaracharya, during his ‘Dig Vijaya’, Spiritual conquest of the whole
-country visited the shrine and anointed lord Rama with the holy water from Ganges,
-reciting ‘Sri Rudram’</div>
+              <div className="des">Sports is very competitive at all levels. Sports medicine playa a vital role in Development and progression of sports. Sports medicine helps in talent evaluation, support in better training & results, injury management including treatment & rehab</div>
             </div>
           </div>
         </div>
-        <div className="thumbnail">
-          <div className="item">
-            <img src={img3} alt="Charlizad" />
+         <div class="thumbnail">
+           
+            <div class="item">
+                <img src={img4} alt="" />
+                <div class="content-1">
+                    <div class="title">
+                        Charlizad
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src={yoga} alt="" />
+                <div class="content-1">
+                    <div class="title">
+                        Charmander
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src={medicine} alt="" />
+                <div class="content-1">
+                    <div class="title">
+                        Eevee in pokeball
+                    </div>
+                </div>
+            </div>
+       
+            <div class="item">
+                <img src={img4} alt="" />
+                <div class="content-1">
+                    <div class="title">
+                        Eevee
+                    </div>
+                </div>
+            </div>
+      
+           
+          
+        </div> 
+     
+       <div className="thumbnail ">
+          <div className="item ">
+            <img src={yoga} alt="Charlizad"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
-          <div className="item">
-            <img src={img4} alt="Charmander" />
+          <div className="item ">
+            <img src={img4} alt="Charmander"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
-          <div className="item">
-            <img src={img5} alt="Eevee in pokeball" />
+          <div className="item ">
+            <img src={medicine} alt="Eevee in pokeball"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
           </div>
-          <div className="item">
-            <img src={img1} alt="Eevee" />
+          <div className="item ">
+            <img src={img1} alt="Eevee"  />
             <div className="content-1">
               <div className="title"></div>
             </div>
@@ -201,6 +261,11 @@ reciting ‘Sri Rudram’</div>
         </div>
         <div className="time"></div>
       </div>
+      </body>
+    
+
+
+
       <Homesection2 />
    </>
   );
