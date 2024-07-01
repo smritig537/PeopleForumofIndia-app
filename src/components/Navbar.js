@@ -134,8 +134,13 @@ import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { useRef } from 'react';
 import { useEffect } from 'react';
-function Navbar() {
- 
+function Navbar({obj}) {
+  if(obj){
+console.log(obj.a);
+<p>{obj.a}</p>
+  }else{
+    console.log("not exists");
+  }
   const location = useLocation();
           const isHomePage = location.pathname === "/";
   //         console.log(isHomePage);
@@ -214,7 +219,7 @@ function Navbar() {
             <Link to="/" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''}   font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2 `} onClick={handleClick}>Home</Link>
             <Link to="/about" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''}  font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2 `} onClick={handleClick}>About</Link>     
             {/* <Link to="/Agriculture" className='mr-8 nav-list-item text-xl font-semibold text-white hover:bg-[#36D7B7] rounded-xl p-2'>Agriculture</Link> */}
-            <Link to="/Ayurveda" className={`mr-8 nav-list-item ${isHomePage ? 'text-[#049372]' : ''} text-xl font-semibold hover:bg-[#36D7B7] rounded-xl p-2`} onClick={handleClick}>Sports & Ayurveda</Link>
+            <Link to="/team" className={`mr-8 nav-list-item ${isHomePage ? 'text-[#049372]' : ''} text-xl font-semibold hover:bg-[#36D7B7] rounded-xl p-2`} onClick={handleClick}>Our Team</Link>
             <Link to="/contactus" className={`nav-list-item text-xl ${isHomePage ? 'text-[#049372]' : ''}  font-semibold mr-8 hover:bg-[#36D7B7] rounded-xl p-2`} onClick={handleClick}>Contact Us</Link>
             </ul>
         </div>

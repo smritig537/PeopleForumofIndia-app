@@ -3,9 +3,9 @@ import logo from "../images/logo.png";
 function Footer() {
   return (
            <>
-           <footer className='w-[100vw] text-[13px] md:text-[15px]  xl:text-[17px] h-auto flex overflow-y-auto items-center justify-center bg-[#414542]'>
-          <div className='w-[90%]  m-auto h-[100%] flex  flex-col '>
-            <div className='flex flex-col   md:flex-row justify-between mt-8'>
+           <footer className='w-[100vw] text-[13px] md:text-[15px] xl:text-[17px] h-auto flex overflow-y-auto items-center justify-center bg-[#414542]'>
+          <div className='w-[90%] m-auto h-[100%] flex  flex-col '>
+            <div className='flex flex-col md:flex-row justify-between mt-8'>
                  <img src={logo} className='w-[350px] h-[350px] mx-auto mt-0' />
                  <div className='flex flex-col text-center mb-8'>
                      <h1 className='font-bold text-center text-[#006442]'>Quick Links</h1>

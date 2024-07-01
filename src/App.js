@@ -11,17 +11,23 @@ import Contactus from './Pages/Contactus.jsx';
 import Sports from './Pages/Sports.js';
 import Ayurveda from './Pages/Ayurveda.js';
 import Global from './Pages/Global.js';
+import Team from './Pages/Team.jsx';
 const App = () => {
+  let obj = {
+    a:"sghghg",
+    b:"hjhhi"
+  }
   return (
+
     <Router>
       {/* <div className=""> */}
-        <Navbar/>
+        <Navbar obj={obj} />
           {/* <Homesection2 /> */}
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/about" element={<About />} />
           <Route path="/contactus" element={<Contactus />} />
-        
+          <Route path="/team" element={<Team />} />
           <Route path="/sports" element={<Sports/>}/>
           <Route path="/contact" element={<Contact />} />
           <Route path="/ayurveda" element={<Ayurveda/>}/>
