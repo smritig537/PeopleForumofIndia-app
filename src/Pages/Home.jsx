@@ -122,9 +122,9 @@ function Home() {
     <>
  <body >
 
-      <div className="container  ">
+      <div className="container ">
       <Navbar />
-        <div className="list  ">
+        <div className="list ">
           <div className="item">
             <img src={img2} alt="cow" className='' />
             <div className="content">
@@ -170,8 +170,8 @@ Wellness tourism focuses on promoting health and well-being through activities s
             <img src={img1} alt="Eevee"  />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
-              <div className="title">Sports Medicine</div>
-              <div className="type">Vital For Sports Development</div>
+              <div className="title">Adi Shankaracharya</div>
+              <div className="type">A Great Spiritual Catalyst</div>
               <button>See more</button>
               <div className="des">Sports is very competitive at all levels. Sports medicine playa a vital role in Development and progression of sports. Sports medicine helps in talent evaluation, support in better training & results, injury management including treatment & rehab</div>
             </div>
@@ -267,7 +267,6 @@ Wellness tourism focuses on promoting health and well-being through activities s
 
 
       <Homesection2 />
-      
    </>
   );
 }
