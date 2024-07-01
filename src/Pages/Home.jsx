@@ -149,7 +149,7 @@ Wellness tourism focuses on promoting health and well-being through activities s
             <img src={img1} alt="Eevee" />
             <div className="content">
               <div className="topic">PEOPLE FORUM</div>
-              <div className="title">Adi Shankaracharya</div>
+              <div className="title"></div>
               <div className="type">A Great Spiritual Catalyst</div>
               <button>See more</button>
               <div className="des">It is believed that Lord Shiva of the Ramanathaswamy temple was consecrated by Lord
@@ -202,7 +202,6 @@ reciting ‘Sri Rudram’</div>
         <div className="time"></div>
       </div>
       <Homesection2 />
-      
    </>
   );
 }
