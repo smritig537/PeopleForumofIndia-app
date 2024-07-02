@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Navbar from '../components/Navbar';
 
 const AboutSection = () => {
     return (
@@ -8,7 +8,7 @@ const AboutSection = () => {
         <section className="py-12 text-gray-800 bg-gray-100">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="text-center">
-                    <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+                    <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-[#235e32] sm:text-4xl">
                         People Forum of India
                     </p>
                     <p className="max-w-2xl mt-4 text-xl text-gray-600 lg:mx-auto">
