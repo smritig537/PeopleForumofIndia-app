@@ -1,5 +1,5 @@
 import React from 'react'
-import om from '../images/om.png'
+import om from "../images/om.png";
 const Global = () => {
   return (
     <>

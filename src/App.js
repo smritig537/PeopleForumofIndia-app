@@ -13,15 +13,12 @@ import Ayurveda from './Pages/Ayurveda.js';
 import Global from './Pages/Global.js';
 import Team from './Pages/Team.jsx';
 const App = () => {
-  let obj = {
-    a:"sghghg",
-    b:"hjhhi"
-  }
+ 
   return (
 
     <Router>
       {/* <div className=""> */}
-        <Navbar obj={obj} />
+        <Navbar />
           {/* <Homesection2 /> */}
         <Routes>
           <Route path="/" element={<Home />} /> 
