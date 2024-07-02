@@ -263,9 +263,6 @@ Wellness tourism focuses on promoting health and well-being through activities s
       </div>
       </body>
     
-
-
-
       <Homesection2 />
    </>
   );
