@@ -1,12 +1,11 @@
 import React from 'react'
 import { useEffect,useState ,useRef} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "./Home.css";
 // import "./Homeresp.css";
 // import "./Home.js";
 import img5 from "../images/Agriculture.png";
 import img4 from "../images/business.jpg";
-import img3 from "../images/hut..png";
 import img2 from "../images/cow.jpg";
 import left from "../images/left.png";
 import yoga from "../images/yoga.jpg"
@@ -21,6 +20,13 @@ import Homesection3 from '../components/Homesection3.jsx';
 import Navbar from '../components/Navbar.js';
 // import img1 from "../images/fifth.png";
 function Home() {
+
+  let navigate = useNavigate();
+  const handleClick = (link) =>{
+                navigate(`/${link}`);
+                console.log(link);
+                // console.log("handleclick");
+  }
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   useEffect(() => {
@@ -41,17 +47,19 @@ function Home() {
     const seemore = document.querySelectorAll('.container .list .item .content .des');
     let flag = false;
 
-    buttons.forEach((button, i) => {
-      button.addEventListener('click', () => {
-        if (!flag) {
-          seemore[i].style.visibility = 'visible';
-          flag = true;
-        } else {
-          seemore[i].style.visibility = 'hidden';
-          flag = false;
-        }
-      });
-    });
+    // buttons.forEach((button, i) => {
+    //   button.addEventListener('click', () => {
+    //     // if (!flag) {
+    //     //   seemore[i].style.visibility = 'visible';
+    //     //   flag = true;
+    //     // } else {
+    //     //   seemore[i].style.visibility = 'hidden';
+    //     //   flag = false;
+    //     // }
+    //     navigate("/ayurveda")
+    //   });
+
+    // });
 
     let timeauto = 7000;
     let autoout = setTimeout(() => {
@@ -121,7 +129,6 @@ function Home() {
   return (
     <>
  <body >
-
       <div className="container ">
       <Navbar />
         <div className="list ">
@@ -131,7 +138,7 @@ function Home() {
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Organic Agriculture</div>
               <div className="type">Organic Flora</div>
-              <button>See more</button>
+              <button onClick={()=>{handleClick("ayurveda")}}>See more</button>
               <div className="des">In integrated farming, the complete inputs for the farm will come from within. This mixed farming technique will keep the field under continuous production. It enhances the productivity of the farm and increases the per capita profitability.</div>
             </div>
           </div>
@@ -141,7 +148,7 @@ function Home() {
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Ayurveda</div>
               <div className="type">A complete science for Healthcare</div>
-              <button>See more</button>
+              <button className={handleClick}>See more</button>
               <div className="des">Ayurveda, being a complete science of healthcare is based on the principles of "swasthasya saasthya samrakshanam" and aaturasya vikaraprashamanam". Hence aiming at the promotive, preventive, curative and rehabilitative aspects of sports persons, principles of Ayurveda can be effectively incorporated.</div>
             </div>
           </div>
@@ -151,7 +158,7 @@ function Home() {
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Business Model</div>
               <div className="type">Collaboration for a Sustainable Future</div>
-              <button>See more</button>
+              <button className={handleClick}>See more</button>
               <div className="des">The business model of the People Forum of India revolves around establishing a collaborative platform for stakeholders across various sectors including businesses, government bodies, academia, and civil society. It serves as a nexus for dialogue and cooperation, aiming to address key socio-economic challenges in India through advocacy, networking, and knowledge exchange. </div>
             </div>
           </div>
@@ -161,7 +168,7 @@ function Home() {
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Carnoustie Wellness</div>
               <div className="type">Emphasizes Holistic Approaches</div>
-              <button>See more</button>
+              <button className={handleClick}>See more</button>
               <div className="des">
 Wellness tourism focuses on promoting health and well-being through activities such as spa treatments, yoga retreats, and mindfulness practices. It emphasizes holistic approaches to relaxation, rejuvenation, and personal growth, often set in tranquil and natural environments to foster mental and physical renewal.</div>
             </div>
@@ -172,7 +179,7 @@ Wellness tourism focuses on promoting health and well-being through activities s
               <div className="topic">PEOPLE FORUM</div>
               <div className="title">Adi Shankaracharya</div>
               <div className="type">A Great Spiritual Catalyst</div>
-              <button>See more</button>
+              <button className={handleClick}>See more</button>
               <div className="des">Sports is very competitive at all levels. Sports medicine playa a vital role in Development and progression of sports. Sports medicine helps in talent evaluation, support in better training & results, injury management including treatment & rehab</div>
             </div>
           </div>
