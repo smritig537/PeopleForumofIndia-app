@@ -8,6 +8,7 @@ import img66 from "../images/img66.png";
 import img77 from "../images/img77.png";
 import img88 from "../images/img88.png";
 import swami from "../images/swami.png";
+import mam from "../images/mam.jpg";
 function Team() {
   return (
   <>
@@ -53,6 +54,15 @@ P. D. Dinakaran Premkumar
                                    Narayananand Giri Maharaj
                                    </h1>
                                    <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>President</h1>
+                         </div>
+                    </div>
+                    <div className="cont1 mx-auto  mb-[5rem]">
+                         <div className='h-[450px] w-[360px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col'>
+                                   <img src={mam} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                                   <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
+                                   Priya Nair
+                                   </h1>
+                                   <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>Corporate International Coordinator</h1>
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
