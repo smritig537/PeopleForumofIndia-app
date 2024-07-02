@@ -10,8 +10,11 @@ import Footer from './components/Footer.jsx';
 import Contactus from './Pages/Contactus.jsx';
 import Sports from './Pages/Sports.js';
 import Ayurveda from './Pages/Ayurveda.js';
-import Global from './Pages/Global.js';
+import Wellness from './Pages/Wellness.jsx';
+// import Global from './Pages/Global.js';
 import Team from './Pages/Team.jsx';
+import Business from './Pages/Business.jsx';
+import Agriculture from './Pages/Agriculture.jsx';
 const App = () => {
  
   return (
@@ -28,7 +31,9 @@ const App = () => {
           <Route path="/sports" element={<Sports/>}/>
           <Route path="/contact" element={<Contact />} />
           <Route path="/ayurveda" element={<Ayurveda/>}/>
-          <Route path="/Global" element={<Global/>}/>
+          <Route path="/agriculture" element={<Agriculture/>}/>
+          <Route path="/wellness" element={<Wellness/>}/>
+          <Route path="/business" element={<Business/>}/>
         </Routes>
           <Footer />
        {/* </div> */}
