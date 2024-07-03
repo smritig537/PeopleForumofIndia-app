@@ -13,7 +13,7 @@ function Team() {
   return (
   <>
          <h2 className='text-[40px] text-[#006442] my-[3rem] font-bold text-center sm:text-[50px]'>Meet Our Team</h2>
-                <div className="flex flex-col w-[80%] mx-auto sm:w-[70%]">
+                <div className="flex flex-col w-[80%] overflow-x-hidden mx-auto sm:w-[70%]">
                     <div className="cont1 mb-[5rem]  mx-auto">
                          <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={swami} className='w-[100%] h-[80%] rounded-t-[30px] ' />
