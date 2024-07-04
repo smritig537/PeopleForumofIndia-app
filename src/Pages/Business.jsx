@@ -17,7 +17,7 @@ M/s.<span className='font-semibold'> VIPL</span> , has proposed to set up a 250 
 <span className='font-semibold'>M/s. CARNOUSTIE, Carnoustie Ayurveda Programmes</span> <br></br><br></br>
 Ayurveda & Yoga are ancient systems of belief which have gained global prominence among many as a mainstream lifestyle choice. Carnoustie espouses this belief to the fullest and offers a range of treatments to its guests. Carnoustie Ayurveda & Wellness Resort is an award winning luxury Ayurveda Resort, offers its guests holistic treatments, combining practices of Ayurveda as Carnoustie's Signature Ayurveda Programmes.
 Wellness Spa - Aryavaidyasala The resort houses a Spa (ARYAVAIDYASALA), practicing an ancient Indian mystique art of healing, the scientific art that brings the mind and body in harmony with Mother Nature; the science of Ayurveda. Derived from Sanskrit, the compound word Ayurveda, implies two connected ideas - 'the science of life' and 'the art of living'. This traditional health science has been in practice in the bed of herbs and spices, Kerala, for more than 5000 years. And today, individuals from around the world travel to this Ayurvedic healing hub, seeking freedom from their ailments. </h1>
-<div className='w-[30%] italic text-[#006442] text-center mx-auto mb-[5rem]'>
+<div className='w-[80%] italic text-[#006442] text-center mx-auto mb-[5rem] sm:w-[30%]'>
 Regd. Office: 15/22, Lawyer Jagannathan Street, Alandur, Chennai - 600 032. E-mail: info@volks.co.in Web: www.volks.co.in
 CIN: U28999TN2017PTC119100 GSTIN: 33AAGCV1390K1Z6
 </div>
