@@ -12,6 +12,7 @@ import Sports from './Pages/Sports.js';
 import Ayurveda from './Pages/Ayurveda.js';
 import Global from './Pages/Global.js';
 import Team from './Pages/Team.jsx';
+import Agriculture from './Pages/Agriculture.js';
 const App = () => {
  
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/sports" element={<Sports/>}/>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/agriculture" element={<Agriculture />} />
           <Route path="/ayurveda" element={<Ayurveda/>}/>
           <Route path="/Global" element={<Global/>}/>
         </Routes>
