@@ -13,8 +13,12 @@ import Ayurveda from './Pages/Ayurveda.js';
 import Wellness from './Pages/Wellness.jsx';
 // import Global from './Pages/Global.js';
 import Team from './Pages/Team.jsx';
+<<<<<<< HEAD
+import Agriculture from './Pages/Agriculture.js';
+=======
 import Business from './Pages/Business.jsx';
 import Agriculture from './Pages/Agriculture.jsx';
+>>>>>>> 72160bb722dd17163208b6a1db72b3184b2cc04a
 const App = () => {
  
   return (
@@ -30,6 +34,7 @@ const App = () => {
           <Route path="/team" element={<Team />} />
           <Route path="/sports" element={<Sports/>}/>
           <Route path="/contact" element={<Contact />} />
+          <Route path="/agriculture" element={<Agriculture />} />
           <Route path="/ayurveda" element={<Ayurveda/>}/>
           <Route path="/agriculture" element={<Agriculture/>}/>
           <Route path="/wellness" element={<Wellness/>}/>
