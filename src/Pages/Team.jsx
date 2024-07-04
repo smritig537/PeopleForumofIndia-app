@@ -7,6 +7,11 @@ import img55 from "../images/img55.png";
 import img66 from "../images/img66.png";
 import img77 from "../images/img77.png";
 import img88 from "../images/img88.png";
+import img111 from "../images/img111.png";
+import img222 from "../images/img222.png";
+import img333 from "../images/img333.png";
+import img444 from "../images/img444.png";
+import img555 from "../images/img555.png";
 import swami from "../images/swami.png";
 import mam from "../images/mam.jpg";
 function Team() {
@@ -84,11 +89,51 @@ Rajesh Bhatter
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
                          <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
-                                   <img src={img88} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                                   <img src={img111} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
-                                   Dhanraj Kella
+                                  
+Chugh Rajan
                                    </h1>
-                                   <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>Ex MLA Surender Nagar, Gujarat</h1>
+                                   <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>Investor & Business Man, Canada</h1>
+                         </div>
+                    </div>
+                    <div className="cont1 mx-auto  mb-[5rem]">
+                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                                   <img src={img222} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                                   <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
+                                   
+K C Kala
+                                   </h1>
+                                   <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>Retd IRS, Maharashtra</h1>
+                         </div>
+                    </div>
+                    <div className="cont1 mx-auto  mb-[5rem]">
+                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                                   <img src={img333} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                                   <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
+                                  
+Rajesh Tripathi
+                                   </h1>
+                                   <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>Retd IRSE, Delhi</h1>
+                         </div>
+                    </div>
+                    <div className="cont1 mx-auto  mb-[5rem]">
+                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                                   <img src={img444} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                                   <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
+                                   Shri M.N. Krishnamurthy,IPS
+                                   </h1>
+                                   <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>Ex DGP Kerala, Karnataka</h1>
+                         </div>
+                    </div>
+                    <div className="cont1 mx-auto  mb-[5rem]">
+                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                                   <img src={img555} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                                   <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
+                                   
+Mahesh Nautiyal
+                                   </h1>
+                                   <h1 className='text-[#006442] text-[17px] m-[0.4rem]'>Social Activist, Delhi</h1>
                          </div>
                     </div>
                 </div>
