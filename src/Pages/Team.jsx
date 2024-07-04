@@ -18,9 +18,9 @@ function Team() {
   return (
   <>
          <h2 className='text-[40px] text-[#006442] my-[3rem] font-bold text-center sm:text-[50px]'>Meet Our Team</h2>
-                <div className="flex flex-col w-[80%] overflow-x-hidden mx-auto sm:w-[70%]">
+                <div className="flex flex-col w-[70%] overflow-x-hidden mx-auto sm:w-[70%]">
                     <div className="cont1 mb-[5rem]  mx-auto">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={swami} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                    Narayananand Giri Maharaj
@@ -30,7 +30,7 @@ function Team() {
                     </div>
                 <div className='flex flex-wrap'>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img11} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>                      
                                     P. D. Dinakaran Premkumar
@@ -39,7 +39,7 @@ function Team() {
                          </div>
                     </div>      
                     <div className="cont1 mx-auto  mb-[5rem]"> 
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={abc} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>                          
                                                                                                      John Joseph
@@ -49,7 +49,7 @@ function Team() {
                     </div>
                    
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img55} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                    
@@ -59,7 +59,7 @@ Buddarapu Venkateswara Rao
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={mam} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                    Priya Nair
@@ -68,7 +68,7 @@ Buddarapu Venkateswara Rao
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img66} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>               
 Rajesh Bhatter
@@ -77,7 +77,7 @@ Rajesh Bhatter
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img77} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                    
@@ -88,7 +88,7 @@ Rajesh Bhatter
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img111} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                   
@@ -98,7 +98,7 @@ Chugh Rajan
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img222} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                    
@@ -108,7 +108,7 @@ K C Kala
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img333} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                   
@@ -118,7 +118,7 @@ Rajesh Tripathi
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img444} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                    Shri M.N. Krishnamurthy,IPS
@@ -127,7 +127,7 @@ Rajesh Tripathi
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img555} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                    
@@ -141,7 +141,7 @@ Mahesh Nautiyal
                 <h2 className='text-[50px] text-[#006442] my-[3rem] font-bold text-center'>Business Development Team</h2>
                     <div className='flex flex-wrap'>
                 <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img22} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>
                                   
@@ -154,7 +154,7 @@ Pathankoth, Punjab</h1>
                          </div>
                     </div>
                     <div className="cont1 mx-auto  mb-[5rem]">
-                         <div className='h-auto w-[310px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
+                         <div className='h-auto w-[280px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col sm:h-[450px] sm:w-[360px]'>
                                    <img src={img44} className='w-[100%] h-[80%] rounded-t-[30px] ' />
                                    <h1 className='text-xl m-[0.4rem] text-[#006442] font-semibold'>                        
                                       Bhawna
