@@ -14,6 +14,8 @@ import img444 from "../images/img444.png";
 import img555 from "../images/img555.png";
 import swami from "../images/swami.png";
 import mam from "../images/mam.jpg";
+import rajesh from '../images/rajesh.jpg'
+import nitin from '../images/nitin.jpg'
 function Team() {
   return (
   <>
@@ -137,6 +139,29 @@ Mahesh Nautiyal
                          </div>
                     </div>
                 </div>
+                <div className="cont1 mx-auto  mb-[5rem]">
+                <div className=' w-[250px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col h-[450px] sm:w-[360px]'>
+                          <img src={rajesh} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                          <h1 className='text-lg m-[0.4rem] text-[#006442] font-semibold sm:text-xl'>
+                          
+Jagdish Kumar 
+                          </h1>
+                          <h1 className='text-[#006442] text-[15px] m-[0.4rem] sm:text-[17px]'>National Coordinator</h1>
+                </div>
+           </div>
+       </div>
+       <div className="cont1 mx-auto  mb-[5rem]">
+       <div className=' w-[250px] border-[#006442] border-[1px] rounded-[30px]  flex flex-col h-[450px] sm:w-[360px]'>
+                 <img src={nitin} className='w-[100%] h-[80%] rounded-t-[30px] ' />
+                 <h1 className='text-lg m-[0.4rem] text-[#006442] font-semibold sm:text-xl'>
+                 
+Nitin Bhatter
+                 </h1>
+                 <h1 className='text-[#006442] text-[15px] m-[0.4rem] sm:text-[17px]'>National Coordinator</h1>
+       </div>
+  </div>
+  
+
                 <div className='flex flex-col'>
                 <h2 className='text-[35px] text-[#006442] my-[3rem] font-bold text-center sm:text-[50px]'>Business Development Team</h2>
                     <div className='flex flex-wrap'>
@@ -163,7 +188,7 @@ Pathankoth, Punjab</h1>
                     </div>
                     </div>
                 </div>
-                </div>       
+                       
   </>
   )
 }
